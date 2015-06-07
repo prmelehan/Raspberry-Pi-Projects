@@ -23,10 +23,10 @@ def command():
         print("Command not found. Type --help for a list of commands");
         command();
 
-def velocity:
+def velocity():
 	#A function that prints the velocity
 	
-def position:
+def position():
 	x, y, z = accelerometer.get_xyz()
     print('x: {}, y: {}, z: {}'.format(x, y, z))
 	command();
