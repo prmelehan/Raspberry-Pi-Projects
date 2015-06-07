@@ -1,0 +1,43 @@
+Good for v1.1 of the senses.py script
+
+This file was made to test the various 3rd party components for the Raspberry Pi 2 Model B
+Although this was created using a Raspberry Pi 2 Model B, the Raspberry Pi 1 Model B and B+ should also work fine.
+The Raspberry Pi 1 Model A+ may or may not work.
+
+Written in Python, this script can be launched from the terminal by typing "python3 path/to/this/file.py"
+It can also be launched by double clicking and running in a Python Shell.
+
+
+External Parts needed to successfully run this script:
+  1. Microstack Accelerometer
+  2. Microstack GPS
+  3. Microstack Baseboard
+  4. Raspberry Pi Camera Board from raspberrypi.org
+  
+Links:
+
+  Microstack stuff:
+    www.microstack.org.uk
+  Raspberry Pi Stuff:
+    www.raspberrypi.org
+  
+Setting up the Microstack GPS:
+  Read the Farnell instruction pdf and follow the directions there:
+    http://www.farnell.com/datasheets/1860443.pdf
+    
+Setting up the Microstack Accelerometer:
+  Read the Farnell instruction pdf and follow the directions there:
+    http://www.farnell.com/datasheets/1860445.pdf
+    
+Setting up the Microstack Baseboard:
+  Read the Farnell instruction pdf and follow the directions there:
+    http://www.farnell.com/datasheets/1860441.pdf
+  
+Setting up the Raspberry Pi Camera Board:
+  Read the tutorial on the Help section of their website:
+    https://www.raspberrypi.org/help/camera-module-setup/
+  
+
+Note: If some component is not setup correctly, the script may throw an error and/or possibly crash the Pi.
+
+Have fun
